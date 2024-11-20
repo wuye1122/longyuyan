@@ -1,5 +1,11 @@
 # start to run
 1.update maven plugin
+```
+mac 端口占用
+lsof -i 8014 
+kill -9 PID 
+
+```
 
 ```shell 
 mvn jetty:run 
